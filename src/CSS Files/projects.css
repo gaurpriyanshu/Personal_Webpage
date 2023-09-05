@@ -72,6 +72,12 @@
     height: auto;
     margin: 3rem;
   }
+  .project-info{
+    margin: 4%;
+  }
+  .project-info p{
+    margin-bottom: 3%;
+  }
 
   .images {
     padding: 10px;

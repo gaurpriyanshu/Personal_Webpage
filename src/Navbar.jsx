@@ -4,7 +4,6 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-scroll";
 import "./CSS Files/Navbar.css";
 import Typewriter from "typewriter-effect/dist/core";
-import { animateScroll as scroll } from "react-scroll";
 import Pdf from "./Images/Priyanshu Gaur.pdf";
 
 function Navbar() {
@@ -38,11 +37,11 @@ function Navbar() {
   const onResumeClick = () => {
     window.open(Pdf);
   };
-
+  // onClick={onResumeClick}
   return (
     <nav id="navbar">
       <div className="container">
-        <a  className = "Resume" onClick={onResumeClick}>
+        <a  className = "Resume" href= "https://drive.google.com/file/d/1TOm4fdbVCA6zGg3bKMoGSbvHacU72-Y2/view?usp=sharing" >
           My Resume
         </a>
       </div>
